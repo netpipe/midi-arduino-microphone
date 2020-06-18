@@ -17,9 +17,9 @@ unsigned long millisCurrent;
 unsigned long millisLast = 0;
 unsigned long millisElapsed = 0;
 
-const int threshold1 = 50;
-const int threshold2 = 500;
-const int threshold3 = 1000;
+const int threshold1 = 2000;
+const int threshold2 = 3000;
+const int threshold3 = 5500;
 
 int sampleBufferValue = 0;
 
